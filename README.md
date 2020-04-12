@@ -3,8 +3,6 @@
 Página de checkout para capturar dados do pagamento de forma interativa;
 ![](img/checkout.png)
 
-<img src="img/checkout.png">
-
 ## Objetivo
 
 Criar uma página de captura de dados de cartão de forma intuitiva.
