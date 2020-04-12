@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1088px) {
+  .container-checkout {
+    max-width: 500px;
+    height: 100%;
+  }
+
+  .container-checkout .cardbox {
+    max-width: 400px;
+    margin: 0 auto;
+    width: 100%;
+  }
+} /* 1088px */
+
+/* @media only screen and (max-width: 728px) {
+  .container-checkout {
+    max-width: 560px;
+  }
+} 752px */
+
+@media only screen and (max-width: 656px) {
+  .container-checkout {
+    max-width: 560px;
+  }
+} /* 656px */
+
+@media only screen and (max-width: 592px) {
+  .container-checkout {
+    max-width: 100%;
+  }
+} /* 592px */
+
+@media only screen and (max-width: 475px) {
+  .container-checkout {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .container-checkout .content .cardnumber .inputgroup input {
+    width: 60px;
+    margin-right: 8px;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .container-checkout .cardbox .cardboxCenter {
+    padding: 10px 5px;
+    font-size: 3vh;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .container-checkout .content .cardnumber .inputgroup input {
+    width: 50px;
+    margin-right: 8px;
+  }
+}

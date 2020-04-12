@@ -1,0 +1,118 @@
+<hmtl>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="stylesheet" type="text/css" href="./styles-media.css" />
+  </head>
+  <body onload="myFunction()">
+    <header></header>
+
+    <div class="container-checkout">
+      <div class="container-card">
+        <div class="flip">
+          <div class="cardbox front">
+            <div class="cardboxHeader">
+              <div class="cardchip">
+                <img src="../../../assets/icon-chip.png" />
+              </div>
+              <div class="cardlogo">bandeira</div>
+            </div>
+            <div class="cardboxCenter">
+              <div class="cardNumber">000 0000 0000 0000</div>
+            </div>
+            <div class="carboxFooter">
+              <div class="cardName">
+                <div class="cardBoxProperty">Nome</div>
+                <div class="cardvalue">primeiroNome S S</div>
+              </div>
+              <div class="cardValidate">
+                <div class="cardBoxProperty">Validade</div>
+                <div class="cardvalue">00/0000</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cardbox back">
+            <div class="cardboxHeader"></div>
+            <div class="cardboxCenter">
+              <div class="cardBoxProperty">CCV</div>
+              <div class="cardvalue">123</div>
+            </div>
+            <div class="carboxFooter">
+              <div class="cardlogo">bandeira</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <form>
+          <div class="cardnumber">
+            <div class="cardBoxProperty">Número:</div>
+            <div class="inputgroup">
+              <input
+                type="num"
+                id="card-number"
+                class="input-cart-number"
+                maxlength="4"
+                type="number"
+              />
+              <input
+                type="num"
+                id="card-number-1"
+                class="input-cart-number"
+                maxlength="4"
+              />
+              <input
+                type="num"
+                id="card-number-2"
+                class="input-cart-number"
+                maxlength="4"
+              />
+              <input
+                type="num"
+                id="card-number-3"
+                class="input-cart-number"
+                maxlength="4"
+              />
+            </div>
+          </div>
+          <div class="cardname">
+            <div class="cardBoxProperty">Nome no cartão</div>
+            <input type="text" id="card-holder" />
+          </div>
+          <div class="inputgroup">
+            <div class="cardvalidade">
+              <div class="cardBoxProperty">Validade</div>
+              <input
+                type="num"
+                id="card-validate"
+                class="input-cart-validade"
+                maxlength="8"
+              />
+            </div>
+
+            <div class="cardcvv">
+              <div class="cardBoxProperty">cvv</div>
+              <input
+                type="num"
+                id="card-cvv"
+                class="input-cart-cvv"
+                maxlength="3"
+              />
+            </div>
+          </div>
+          <button class="btn"><i class="fa fa-lock"></i> Finalizar</button>
+        </form>
+      </div>
+    </div>
+    <footer></footer>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+  <script src="./index.js"></script>
+  <script>
+    function myFunction() {
+      console.log("teste");
+      AppCard.init();
+    }
+  </script>
+</hmtl>
